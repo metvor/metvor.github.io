@@ -1,0 +1,64 @@
+body {
+  font-family: verdana;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  transition: top 0.5s;
+  width: 100%;
+}
+
+li {
+  display: inline;
+  padding: 20px;
+  font-size: 20px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: purple;
+  text-decoration: underline;
+}
+.soMe-link {
+  position: fixed;
+  left: 2rem;
+  color: #233142;
+  font-size: 1.5rem
+}
+.soMe-link:hover {
+  color: #f95959;
+  transition: 400ms ease-in-out;
+}
+.github {
+  bottom: 8rem;
+}
+.linkedin {
+  bottom: 4rem;
+}
+.section {
+    padding: 200px;
+}
+.section h2 {
+  margin-bottom: 50px;
+}
+.project img {
+  /* width: 60%; */
+  max-width: 100%;
+  height: auto;
+}
+.project .row {
+  margin-top: 100px;
+}
+.btn {
+  border-color: #f95959;
+  background-color: white;
+  color: #f95959;
+}
+.btn:hover {
+  text-decoration: none;
+  border-color: #f95959;
+  background-color: #f95959;
+  color: white;
+}
