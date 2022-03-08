@@ -1,35 +1,51 @@
 body {
   font-family: verdana;
-}
+  font-size: 18px;
+  background-color: #0A192F;
+  color: #626D89; 
+} 
 .navbar {
   position: fixed;
-  top: 0;
-  transition: top 0.5s;
+  /* top: 0; */
+  transition: top 0.4s;
   width: 100%;
+  background-color: #0A192F;
+  opacity: 0.9;
+  box-shadow: 0 5px 5px #071429;
+  /* margin-top: 10px; */
 }
-
-li {
+.navbar li {
   display: inline;
   padding: 20px;
-  font-size: 20px;
+  font-size: 17px;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: #64FFDA
 }
 a:hover {
-  color: purple;
   text-decoration: underline;
+  color: #64FFDA;
+}
+.about ul {
+  padding: 0;
+}
+.about li {
+  color: #64FFDA;
+  display: inline;
+  padding: 6px;
+  font-size: 15px;
 }
 .soMe-link {
   position: fixed;
   left: 2rem;
-  color: #233142;
-  font-size: 1.5rem
+  color: #626D89; 
+  font-size: 1.5rem;
+  transition: 300ms ease-in-out;
 }
 .soMe-link:hover {
-  color: #f95959;
-  transition: 400ms ease-in-out;
+  color: #64FFDA;
+  transition: 300ms ease-in-out;
 }
 .github {
   bottom: 8rem;
@@ -37,28 +53,40 @@ a:hover {
 .linkedin {
   bottom: 4rem;
 }
+.title {
+  color: #9fa9c5;
+}
+.home .title {
+  font-size: 80px;
+  margin-top: 140px;
+}
+.home p {
+  font-size: 50px;
+}
 .section {
-    padding: 200px;
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 .section h2 {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 .project img {
-  /* width: 60%; */
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
+  border-radius: 6px;
 }
 .project .row {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 .btn {
-  border-color: #f95959;
-  background-color: white;
-  color: #f95959;
+  background-color: #0A192F;
+  color: #64FFDA;
+  border: 1px  solid #64FFDA;
 }
 .btn:hover {
-  text-decoration: none;
-  border-color: #f95959;
-  background-color: #f95959;
-  color: white;
+  background-color: #15263f;
+  color: #64FFDA;
+  border: 1px  solid #64FFDA;
+text-decoration: none;
 }
