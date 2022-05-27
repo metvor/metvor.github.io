@@ -9,10 +9,5 @@ window.onscroll = function() {
     lastScroll = currentScroll;
 }
 
-window.onload=function(){
-    document.getElementById("button").style.display='none';
+
   
-  }
-  function showButton(){
-    document.getElementById("button").style.display='block';
-  }
