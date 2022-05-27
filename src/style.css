@@ -1,18 +1,16 @@
 body {
   font-family: verdana;
   font-size: 18px;
-  background-color: #0A192F;
-  color: #626D89; 
+  background-color: #facf5a;
+  color: #233142
 } 
 .navbar {
   position: fixed;
-  /* top: 0; */
   transition: top 0.4s;
   width: 100%;
-  background-color: #0A192F;
+  background-color: #facf5a;
   opacity: 0.9;
-  box-shadow: 0 5px 5px #071429;
-  /* margin-top: 10px; */
+  margin-top: 5px;
 }
 .navbar li {
   display: inline;
@@ -21,17 +19,17 @@ body {
 }
 a {
   text-decoration: none;
-  color: #64FFDA
+  color: #233142
 }
 a:hover {
   text-decoration: underline;
-  color: #64FFDA;
+  color: #233142
 }
 .about ul {
   padding: 0;
 }
 .about li {
-  color: #64FFDA;
+  /* color: #64FFDA; */
   display: inline;
   padding: 6px;
   font-size: 15px;
@@ -39,12 +37,12 @@ a:hover {
 .soMe-link {
   position: fixed;
   left: 2rem;
-  color: #626D89; 
+  color: #233142;
   font-size: 1.5rem;
   transition: 300ms ease-in-out;
 }
 .soMe-link:hover {
-  color: #64FFDA;
+  color: #233142;
   transition: 300ms ease-in-out;
 }
 .github {
@@ -53,9 +51,9 @@ a:hover {
 .linkedin {
   bottom: 4rem;
 }
-.title {
+/* .title {
   color: #9fa9c5;
-}
+} */
 .home .title {
   font-size: 80px;
   margin-top: 140px;
