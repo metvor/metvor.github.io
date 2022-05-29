@@ -14,11 +14,11 @@ body {
   padding: 20px;
   font-size: 17px;
 }
-a {
+.navbar a {
   text-decoration: none;
   color: #233142
 }
-a:hover {
+.navbar a:hover {
   color: #233142
 }
 .about ul {
@@ -87,4 +87,20 @@ a:hover {
   width: 100%;
   height: 100%;
 }
-
+.contact {
+  text-align: center;
+}
+.contact ul {
+  margin-top: 30px;
+}
+.contact li {
+  padding: 10px;
+  display: inline;
+}
+.contact a {
+  font-size: 20px;
+  padding: 10px 12px;
+  background-color: #443ee3;
+  color: white;
+  border-radius: 45px;
+}
