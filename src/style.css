@@ -69,7 +69,7 @@ body {
 }
 .contact a:hover {
   background: #f2e0de;
-
+  
 }
 .project {
   display: flex;
@@ -90,21 +90,20 @@ body {
   cursor: pointer;
 }
 .project-text {
-  background-color: #034f84;
-  color: #f7cac9;
   padding: 20px;
   width: 50%;
 }
 .project-text a {
-  border: 1px solid #f7cac9;
+  background-color: #F2F5F4;
+  color: #f7786b;
+  border: 1px solid #f7786b;
   padding: 10px;
   border-radius: 4px;
-  color: #f7cac9;
   text-decoration: none;
   transition: all 300ms ease-in-out;
 }
 .project-text a:hover {
-  background: #196eaa;
+  background: #f2e0de;;
 }
 .fade-in {
   opacity: 0;
