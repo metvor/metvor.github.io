@@ -1,3 +1,6 @@
+* {
+  box-sizing: border-box;
+}
 body {
   font-family: verdana;
   font-size: 18px;
@@ -47,8 +50,6 @@ body {
 }
 .section {
     padding: 100px;
-    margin-left: 200px;
-    margin-right: 200px;
 }
 .section h2 {
   margin-bottom: 30px;
@@ -66,4 +67,26 @@ body {
   background-color: #443ee3;
   color: white;
   border-radius: 45px;
+}
+.project {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.project-image {
+  padding: 20px;
+  width: 50%;
+  position: relative;
+}
+.project-image img {
+  max-width: 600px;
+  object-fit: contain;
+  width: 100%;
+  cursor: pointer;
+}
+.project-text {
+  padding: 20px;
+  width: 50%;
 }
