@@ -14,6 +14,7 @@ body {
   margin-bottom: 15px;
   padding-bottom: 0;
   background-color: #F2F5F4;
+  text-align: right;
 }
 .navbar li {
   display: inline;
@@ -21,21 +22,22 @@ body {
   font-size: 17px;
 }
 .navbar a {
+  color: #000000;
   text-decoration: none;
-  color: black;
 }
 .navbar a:hover {
-  color: #f7786b;
+  color: #FF5851;
 }
 .title {
-  color: #f7786b;
+  color: #FF5851;
 }
-.about ul {
+.skills ul {
   padding: 0;
 }
-.about li {
+.skills li {
   display: inline;
-  padding: 6px;
+  padding: 8px;
+
   font-size: 18px;
 }
 .home .title {
@@ -63,9 +65,10 @@ body {
   font-size: 20px;
   padding: 9px 12px;
   background-color: #F2F5F4;
-  color: #f7786b;
-  border: 1px solid #f7786b;
+  color: #FF5851;
+  border: 1px solid #FF5851;
   border-radius: 50%;
+  transition: all 300ms ease-in-out;
 }
 .contact a:hover {
   background: #f2e0de;
@@ -95,8 +98,8 @@ body {
 }
 .project-text a {
   background-color: #F2F5F4;
-  color: #f7786b;
-  border: 1px solid #f7786b;
+  color: #FF5851;
+  border: 1px solid #FF5851;
   padding: 10px;
   border-radius: 4px;
   text-decoration: none;
