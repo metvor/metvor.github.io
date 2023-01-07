@@ -26,6 +26,7 @@
             </li> -->
         </ul>
     </div>
+
     <div class="content">
     <div class="section home" id="home">
         <h2 class="title">Mette Vorraa</h2>
@@ -34,58 +35,76 @@
     <div class="section about" id="about">
         <h2 class="title">About</h2>
         <div class="row">
-          <div class="col-8 aboutText">
-        <p>Hi, my name is Mette and I build websites. I have always been fascinated with code, so in 2021 I completed an extensive course which focused on writing code for websites and web applications. Since then, I have continued working on projects and expanding my skill set.
-          Some of the technologies I am experienced with include:
-          </p>
-        <ul class="skills"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>React</li></ul>
+          <div class="about-col-1"><img src="src/images/about.jpg"></div>
+          <div class="about-col-2">
+			<h2>About me</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris pretium porttitor rhoncus. Nunc blandit felis vitae urna vehicula tincidunt. Pellentesque rutrum facilisis tortor at congue. Etiam vestibulum lobortis justo, non scelerisque enim vestibulum a. Donec commodo porta velit nec vestibulum. Maecenas massa nisl, convallis quis volutpat nec, porttitor congue tortor. Mauris sed lorem ut quam ornare maximus et id orci.</p>
+			<div class="about-tabs">
+				<p class="tab-links active-link" onClick="opentab('skills')">Skills</p>
+				<p class="tab-links"onClick="opentab('experience')">Experience</p>
+				<p class="tab-links"onClick="opentab('education')">Education</p>
+			</div>
+			<div class="tab-contents active-tab" id="skills">
+				<ul>
+					<li><span>Web Development</span></br>Develop websites with JavaScript and React</li>
+					<li><span>UI/UX</span></br>Designing web interfaces</li>
+					<li><span>Image Editing</span></br>Editing images in Adobe Photoshop</li>
+				</ul>
+			</div>
+			<div class="tab-contents" id="experience">
+				<ul>
+					<li><span>2020 - current</span></br>Digitisation Officer at Bodleian Libraries</li>
+					<li><span>2021</span></br>Front End Development Training at SheCodes</li>
+					<li><span>2018 - 2019</span></br>Digitisation Assistant at National Portrait Gallery</li>
+				</ul>
+			</div>
+			<div class="tab-contents" id="education">
+			<ul>
+				<li><span>2021</span></br>Front End Development certificate from SheCodes</li>
+				<li><span>2011 - 2014</span></br>BA Photography First Class Honours from Swansea Metropolitan University</li>
+				<li><span>2010 - 2011</span></br>Culture Studies & Philosopy at University of Bergen</li>
+				<li><span>2009 - 2010</span></br>Photography at Fana Folk High School</li>
+				<li><span>2006 - 2009</span></br>Media & Communications at Aakrehamn VGS (equivalent to A-levels)</li>
+			</ul>
+		</div>
+			</div>
+		</div>
     </div>
   </div>
 </div>
     <div class="section" id="projects">
-        <h2 class="title">Projects</h2>
         <div class="project-container">
-            <div class="project fade-in">
-              <div class="project-image"><img src="src/images/dictionary.png"/></div>
-              <div class="project-text">
+        <h2 class="title">Projects</h2>
+            <div class="project-list">
+              <div>
                 <h2>Dictionary application</h2>
                 <p>This is a single-page application I built, based on design by SheCodes. The initial load page includes only a search bar, and the site expands with returning results in sections from user's search word. The site uses two API's to find and display dictionary and image results.</p>
                 <ul class="skills"><li>HTML</li><li>CSS</li><li>React</li></ul>
                 <a href="https://amazing-bose-17f2f6.netlify.app/" type="button" class="project-button">View project</a>
               </div>
-            </div>
-            <div class="project fade-in">
-              <div class="project-text">
+              <div>
                 <h2>Weather forecast application</h2>
                 <p>I built and designed a weather forecast application to show live weather data for any location in the world. This was achieved by using a weather API and working with geolocations. Users can also get weather forecast for their current location.</p>
                 <ul class="skills"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
-                <a href="https://condescending-yalow-0801bf.netlify.app/" type="button" class="project-button">View project</a></div>
-                <div class="project-image"><img src="src/images/weather-app.png"/></div>
+                <a href="https://condescending-yalow-0801bf.netlify.app/" type="button" class="project-button">View project</a>
               </div>
-            </div>
-            <div class="project fade-in">
-              <div class="project-image"><img src="src/images/coming-soon.jpg"/></div>
-              <div class="project-text">
+              <div>
                 <h2>E-commerce page</h2>
                 <p>This is a development challenge by Frontendmentor, where I have built the site based on a set of requirements which includes design and functionality. User can interact with the image gallery and also interact with the shopping basket.</p>
                 <ul class="skills"><li>HTML</li><li>CSS</li><li>React</li></ul>
                 <a href="https://github.com/metvor/e-commerce-site" type="button" class="project-button">View source code</a>
               </div>
-            </div>
-            <div class="project fade-in">
-              <div class="project-text">
+              <div>
                 <h2>My portfolio</h2>
                 <p>The website you are currently viewing is both designed and built by me.</p>
                 <ul class="skills"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
-                <a href="https://github.com/metvor/metvor.github.io" type="button" class="project-button">View source code</a></div>
-                <div class="project-image"><img src="src/images/portfolio.png"/></div>
+                <a href="https://github.com/metvor/metvor.github.io" type="button" class="project-button">View source code</a>
               </div>
             </div>
           </div>
     </div>
     <div class="section contact" id="contact">
         <h2 class="title">Contact</h2>
-        <p>I am open for opportunities, from updating css to improving user experiences on your website.<br/>Get in touch for a chat.</p>
         <ul>
             <li><a href="mailto:mettevorraa@gmail.com"><i class="fas fa-envelope"></i></a></li>
             <li><a href="https://www.linkedin.com/in/mettevorraa/"><i class="fab fa-linkedin-in"></i></a></li>
