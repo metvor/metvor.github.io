@@ -5,9 +5,12 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  font-size: 18px;
+  font-size: 1em;
   background-color: #fefefe;
+  text-align: center;
 } 
+
+/* Nav bar */
 .navbar {
   position: fixed;
   transition: top 0.4s;
@@ -48,34 +51,18 @@ body {
 .home p {
   font-size: 50px;
 }
-.section h2 {
-  margin-bottom: 30px;
-  font-size: 26px;
-}
 
+/* About page */
 .about {
   padding: 80px 0;
 }
-.row {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-.about-col-1 {
-  flex-basis: 35%
-}
-.about-col-1 img {
-  width: 85%;
-  border-radius: 15px;
-}
-.about-col-2 {
-  width: 60%
-}
 
+/* About page-table: skills list */
 .about-tabs {
   display: flex;
   margin: 20px 0 40px;
 }
+
 .tab-links {
   margin-right: 50px;
   cursor: pointer;
@@ -107,33 +94,26 @@ body {
 .tab-contents.active-tab {
   display: block;
 }
-#projects {
-  padding: 20px 0;
-}
-.featured-project {
-  padding: 40px;
-  border-radius: 10px;
-  border: 2px solid #f3e2e2;
-  box-shadow: #d6c6c6 5px 5px 10px;
-}
-.project-col-2 {
-  flex-basis: 50%
-}
-.project-col-2 img {
-  max-width: 500px;
-  border-radius: 15px;
-}
-.project-col-1 {
-  width: 45%
+.card-deck {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  
 }
 
-.project-list {
+
+/* Home page element containers */
+#container {
+  padding: 20px 0;
+}
+
+.container-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
 }
-.project-list div {
+.container-list div {
   background: #f8f5f5;
   padding: 40px;
   border-radius: 10px;
@@ -160,6 +140,7 @@ body {
   margin: 100px;
 }
 
+/* Contact */ 
 .contact ul {
   margin-top: 30px;
 }
@@ -180,4 +161,14 @@ body {
   background: #1e2266;
   color: #fefefe;
   
+}
+
+/* Mobile styling */
+@media screen and (max-width: 640px) {
+  .section {margin: 5px;}
+  .about {}
+  .navbar {display: none}
+  .project-col-2 img {display: none}
+  .project-col-1 {width: 100%;}
+  .about-col-1 img {display: none;}
 }
