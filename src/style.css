@@ -11,28 +11,62 @@ body {
 } 
 
 /* Nav bar */
-.navbar {
-  position: fixed;
-  transition: top 0.4s;
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-height: 100vh;
+}
+nav {
+  background-color: white;
+}
+nav ul {
   width: 100%;
-  padding: 15px 0;
-  margin: 0 15px;
-  background-color: #fefefe;
-  text-align: right;
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
-.navbar li {
-  display: inline;
-  padding: 20px;
-  font-size: 17px;
+nav li {
+  height: 50px;
 }
-.navbar li a {
-  color: #000000;
+nav a{
+  height: 100%;
+  padding: 0 30px;
   text-decoration: none;
+  display: flex;
+  align-items: center;
 }
-.navbar li a:hover {
-  text-decoration: underline;
-  animation: both 200ms;
+nav li:first-child {
+  margin-right: auto;
 }
+.sidebar {
+position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 250px;
+  z-index: 999;
+  display: none;
+  list-style: none;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  backdrop-filter: blur(10px);
+  background-color: orange;
+}
+.sidebar li {
+  width: 100%;
+}
+.sidebar a {
+  width: 100%;
+}
+.menu-button {
+  display: none;
+  
+}
+
 
 .title {
   color: #1e2266;
@@ -125,7 +159,7 @@ h2 {
 }
 .button:hover {
   background-color: rgb(255, 123, 0);
-  color: white;
+  color: white  ;
 }
 .project-button {
   display: flex;
@@ -179,8 +213,26 @@ h3, h4 {
   
 }
 
-/* Mobile styling */
+/* MOBILE*/
+
 @media screen and (max-width: 640px) {
   .section {margin: 5px;}
-  .navbar {display: none}
+  
 }
+
+/* Navbar */
+@media screen and (max-width: 800px) {
+  .hideOnMobile {
+  display: none;
+  }
+    .menu-button {
+    display: block;
+    
+  }
+  }
+    @media screen and (max-width: 400px) {
+      .sidebar {
+  width: 100%;
+      }
+    }
+

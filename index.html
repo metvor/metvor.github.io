@@ -9,19 +9,28 @@
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=">
           <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
           <script src="https://kit.fontawesome.com/2215f0e00c.js" crossorigin="anonymous"></script>
-          <script src="src/script.js"></script>
     <title>Mette Vorraa</title>
 </head>
 <body>
-    <div class="navbar fixed-top" id="navbar">
-        <ul class="navbar-list">
-            <li class="list-item"><a href="#home">MV</a></li>
-            <li class="list-item"><a href="src/work.html">WORK</a></li>
-            <li class="list-item"><a href="src/about.html">ABOUT</a></li>
-            <li class="list-item"><a href="#contact">CONTACT</a></li>
-        </ul>
-    </div>
+  <nav>
+    <ul class="sidebar">
+      <li id="hideSidebar"><a href="#">X</a></li>
+      <li><a href="src/work.html">WORK</a></li>
+      <li><a href="src/about.html">ABOUT</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <ul>
+      <li class="hideOnMobile"><a href="#">MV</a></li>
+      <li class="hideOnMobile"><a href="src/work.html">WORK</a></li>
+      <li class="hideOnMobile"><a href="src/about.html">ABOUT</a></li>
+      <li class="hideOnMobile"><a href="#contact">CONTACT</a></li>
+      <li class="menu-button" id="showSidebar"><a href="#">=</a></li>
+     
+    </ul>
+  </nav>
+  
 
     <div class="content" id="home">
     <div class="section home">
@@ -88,8 +97,7 @@
           </ul>
         </div>
     </div>
-
-
+    <script src="src/script.js"></script>
 
   </body>
 </html>

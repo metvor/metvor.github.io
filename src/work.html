@@ -8,19 +8,30 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet"
           href="https://fonts.googleapis.com/css?family=">
+
           <script src="https://kit.fontawesome.com/2215f0e00c.js" crossorigin="anonymous"></script>
-    <script src="src/script.js"></script>
     <title>MV Developer</title>
 </head>
 <body>
-    <div class="navbar fixed-top" id="navbar">
-        <ul class="navbar-list">
-            <li class="list-item"><a href="../index.html">MV</a></li>
-            <li class="list-item"><a href="#work">WORK</a></li>
-            <li class="list-item"><a href="about.html">ABOUT</a></li>
-            <li class="list-item"><a href="../index.html#contact">CONTACT</a></li>
+    <nav>
+        <ul class="sidebar">
+          <li id="hideSidebar"><a href="#">X</a></li>
+          <li><a href="#">WORK</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="../index.html#contact">CONTACT</a></li>
         </ul>
-    </div>
+        <ul>
+          <li class="hideOnMobile"><a href="../index.html">MV</a></li>
+          <li class="hideOnMobile"><a href="#">WORK</a></li>
+          <li class="hideOnMobile"><a href="about.html">ABOUT</a></li>
+          <li class="hideOnMobile"><a href="../index.html#contact">CONTACT</a></li>
+          <li class="menu-button" id="showSidebar"><a href="#">=</a></li>
+         
+        </ul>
+      </nav>
+
+
+
     <div class="section" id="container">
         <div class="item-container">
     
@@ -47,6 +58,7 @@
         </div>
         </div>
         <a href="https://github.com/metvor" type="button" class="button work-button">My GitHub profile</a>
+        <script src="script.js"></script>
 
 </body>
 </html>
