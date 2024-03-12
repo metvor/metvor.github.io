@@ -102,6 +102,7 @@ h2 {
 }
 .about-tabs {
   margin: 20px 0 40px;
+  /* display: flex;   */
 }
 
 .tab-links {

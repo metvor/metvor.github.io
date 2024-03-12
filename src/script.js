@@ -4,17 +4,15 @@ function showSidebar() {
     sidebar.style.display = 'flex'
     }
     
-    function hideSidebar() {
+function hideSidebar() {
     const sidebar = document.querySelector(".sidebar")
     sidebar.style.display = 'none'
-    
     }
 
-
-    let hide = document.getElementById("hideSidebar");
+let hide = document.getElementById("hideSidebar");
     hide.addEventListener('click', hideSidebar);
 
-    let show = document.getElementById("showSidebar");
+let show = document.getElementById("showSidebar");
     show.addEventListener('click', showSidebar);
 
 var tablinks = document.getElementsByClassName("tab-links");
