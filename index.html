@@ -36,15 +36,15 @@
       <div class="row">
     <h3 id="about">About me</h3>
     <p>Passionate about building and improving websites with a focus on user experience. I mainly work with JavaScript and React and I am motivated to develop my skills further. My background is in photography and I have a strong interest in web design.</p>
-    </div>
-     <div class="row">
+    <!-- </div>
+     <div class="row"> -->
       <div class="about-tabs column-one">
-        <p class="tab-links active-link" id="skills">Skills</p>
-        <p class="tab-links" id="experience">Experience</p>
-        <p class="tab-links" id="education">Education</p>
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
       </div>
       <div class="column-two">
-      <div class="tab-contents tab-link" id="skills-info">
+      <div class="tab-contents active-content" id="skills">
         <ul>
           <li><span>Languages</span></br>HTML - CSS - JavaScript</li>
           <li><span>Libraries</span></br>React</li>
@@ -53,15 +53,14 @@
           <li><span>Design Applications</span></br>Figma - Adobe Photoshop - Adobe InDesign</li>
         </ul>
       </div>
-      <div class="tab-contents" id="experience-info">
+      <div class="tab-contents" id="experience">
         <ul>
           <li><span>2022 - current</span></br>Digitisation Officer at Bodleian Libraries</li>
           <li><span>2020 - 2021</span></br>Quality Assurance Assistant at Bodleian Libraries</li>
           <li><span>2018 - 2019</span></br>Digitisation Assistant at National Portrait Gallery</li>
         </ul>
-        <a href="https://www.linkedin.com/in/mettevorraa/" type="button" class="button work-button">View more on LinkedIn</a>
       </div>
-      <div class="tab-contents" id="education-info">
+      <div class="tab-contents" id="education">
         <ul>
           <li><span>Front End Development certificate from SheCodes</span><br>
             Completed code assignments to weekly deadlines
