@@ -13,7 +13,7 @@
     <title>Mette Vorraa</title>
 </head>
 <body>
-  <nav>
+  <nav class="navbar show">
     <ul class="sidebar">
       <li id="hideSidebar"><a href="#">X</a></li>
       <li><a href="#projects">WORK</a></li>
@@ -34,66 +34,63 @@
     </div>
     <div class="section about" id="about">
       <div class="row">
-    <h3 id="about">About me</h3>
-    <p>Passionate about building and improving websites with a focus on user experience. I mainly work with JavaScript and React and I am motivated to develop my skills further. My background is in photography and I have a strong interest in web design.</p>
-    <!-- </div>
-     <div class="row"> -->
+    <h3 id="about"></h3>
+    <p>Experienced in building websites with a focus on UI and UX design. I mainly work with JavaScript and React and I am motivated to develop my skills further. My background is in photography and I have a strong interest in web design.</p>
       <div class="about-tabs column-one">
         <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
     <p class="tab-links" onclick="opentab('experience')">Experience</p>
-    <p class="tab-links" onclick="opentab('education')">Education</p>
       </div>
       <div class="column-two">
       <div class="tab-contents active-content" id="skills">
         <ul>
-          <li><span>Languages</span></br>HTML - CSS - JavaScript</li>
-          <li><span>Libraries</span></br>React</li>
-          <li><span>CSS Framework</span></br>Bootstrap</li>
-          <li><span>Version Control</span></br>Git</li>
-          <li><span>Design Applications</span></br>Figma - Adobe Photoshop - Adobe InDesign</li>
-        </ul>
-      </div>
-      <div class="tab-contents" id="experience">
-        <ul>
-          <li><span>2022 - current</span></br>Digitisation Officer at Bodleian Libraries</li>
-          <li><span>2020 - 2021</span></br>Quality Assurance Assistant at Bodleian Libraries</li>
-          <li><span>2018 - 2019</span></br>Digitisation Assistant at National Portrait Gallery</li>
+          <li><span>Web Development</span></br>I build websites and web applications which includes planning, coding and testing before deploying</li>
+          <li><span>Responsive Design</span></br>Responsiveness is vital and I focus greatly on adapting code for small screens</li>
+          <li><span>UX and UI Design</span></br>My goal for everything I build is to create intuitive user experiences and make it look good</li>
+          <li><span>The technical stuff</span></br>HTML - CSS - JavaScript - ReactJS</br>Git version control - Figma - Adobe CC</li>
         </ul>
       </div>
       <div class="tab-contents" id="education">
         <ul>
-          <li><span>Front End Development certificate from SheCodes</span><br>
+          <li><span>React Development certificate | SheCodes</span><br>
+            Delivered a dictionary web application based on design</li>
+          <li><span>Front End Development certificate | SheCodes</span><br>
             Completed code assignments to weekly deadlines
-          </br>Designed and built two larger projects
+          </br>Designed and built a weather forecast with JavaScript
             </br>Peer reviewed fellow students' code</li>
-        <li><span>2011 - 2014</span></br>BA (Hons) Photography from Swansea Metropolitan University</li>
+            <li><span>BA (Hons) Photography | Swansea Metropolitan University</span></li>
       </ul>
     </div>
+      <div class="tab-contents" id="experience">
+        <ul>
+          <li><span>Digitisation Officer | Bodleian Libraries</span></br>Manage an image archive and deliver high-volume projects</li>
+          <li><span>Quality Assurance Assistant | Bodleian Libraries</span></br>Quality check all images produced in a busy photography studio</li>
+          <li><span>Digitisation Assistant | National Portrait Gallery</span></br>Reviewed existing image collections and created new surrogates</li>
+        </ul>
+      </div>
       </div>
       </div>
       </div>
   <div class="section" id="projects">
-    <div class="item-container">
 <div class="container-list">
-    <div>
+    <div class="single-project">
       <h4>Dictionary</h4>
       <p>Single-page site returning dictionary results based on user's search word.</p>
       <ul class="skills"><li>HTML</li><li>CSS</li><li>React</li></ul>
       <a href="https://amazing-bose-17f2f6.netlify.app/" type="button" class="button project-button" target="_blank">View project</a>
     </div>
-    <div>
+    <div class="single-project">
         <h4>Weather Forecast</h4>
         <p>Current weather and five-day forecast for current location and any searchable location.</p>
         <ul class="skills"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
         <a href="https://condescending-yalow-0801bf.netlify.app/" type="button" class="button project-button" target="_blank">View project</a>
     </div>
-    <div>
+    <div class="single-project">
         <h4>My Portfolio</h4>
         <p>This website was built to showcase my work and wider experience</p>
         <ul class="skills"><li>HTML</li><li>CSS</li><li>JavaScript</li></ul>
         <a href="https://github.com/metvor/metvor.github.io" type="button" class="button project-button" target="_blank">View source code</a>
       </div>
-    </div>
     </div>
     </div>
     <a href="https://github.com/metvor" type="button" class="button work-button">My GitHub profile</a>

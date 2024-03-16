@@ -30,5 +30,16 @@ let show = document.getElementById("showSidebar");
      
     }
     
-    
+    let prevScrollPos = window.pageYOffset;
 
+    window.addEventListener('scroll', function() {
+      const currentScrollPos = window.pageYOffset;
+    
+      if (prevScrollPos > currentScrollPos) {
+        document.querySelector('.navbar').classList.add('show');
+      } else {
+        document.querySelector('.navbar').classList.remove('show');
+      }
+    
+      prevScrollPos = currentScrollPos;
+    });
